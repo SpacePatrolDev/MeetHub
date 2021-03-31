@@ -86,8 +86,28 @@ h3 {
 /* Testimonials */
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #EF8172;
   color: #FFF;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 25px 50px;
 }
