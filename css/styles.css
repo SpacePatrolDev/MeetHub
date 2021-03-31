@@ -59,14 +59,16 @@ h3 {
 /* Title Image */
 
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
+  width: 55%;
+  float: right;
+  transform: rotate(20deg);
 }
 
 /* Features Section */
 
 #features {
   padding: 7% 15%;
+  background-color: #FFF;
 }
 
 .feature-container {
@@ -87,7 +89,7 @@ h3 {
 
 #testimonials {
   text-align: center;
-  background-color: #EF8172;
+  background-color: #FF4C68;
   color: #FFF;
 }
 
@@ -102,7 +104,7 @@ h3 {
 }
 
 #press {
-  background-color: #EF8172;
+  background-color: #FF4C68;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -110,4 +112,50 @@ h3 {
 .press-logo {
   width: 15%;
   margin: 20px 25px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+
+#cta {
+  background-color: #FF4C68;
+  color: #FFF;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 55%;
+    transform: rotate(0deg);
+    float: none;
+  }
 }
